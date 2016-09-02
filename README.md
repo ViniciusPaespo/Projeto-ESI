@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ViniciusPaespo/Projeto-ESI.svg?branch=master)](https://travis-ci.org/ViniciusPaespo/Projeto-ESI)
 
-
+[![Code Climate](https://codeclimate.com/github/ViniciusPaespo/Projeto-ESI/badges/gpa.svg)](https://codeclimate.com/github/ViniciusPaespo/Projeto-ESI)
 
 
 Nome dos Integrantes : <br>
