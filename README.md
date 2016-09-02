@@ -6,7 +6,7 @@
 
 
 Nome dos Integrantes :
-  Dirceu Neto
+  Dirceu Neto<br>
   Felipe Nunes
   Lais Freire
   Rafael Amado
