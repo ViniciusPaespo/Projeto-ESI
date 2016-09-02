@@ -4,6 +4,9 @@
 
 [![Code Climate](https://codeclimate.com/github/ViniciusPaespo/Projeto-ESI/badges/gpa.svg)](https://codeclimate.com/github/ViniciusPaespo/Projeto-ESI)
 
+Link Pivotal : https://www.pivotaltracker.com/projects/1858991
+
+<br>
 
 Nome dos Integrantes : <br>
   Dirceu Neto <br>
