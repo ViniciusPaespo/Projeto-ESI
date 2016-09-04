@@ -14,7 +14,7 @@ Nome dos Integrantes : <br>
   Dirceu Neto nº:7972108 <br>
   Felipe Nunes <br>
   Lais Freire <br>
-  Rafael Amado <br>
+  Rafael Amado nº:8922409 <br>
   Vinicius Paes Pó <br>
     
   O problema a ser solucionado é a grande perda e desinteresse hoje pelos cartões de visita. <br>
