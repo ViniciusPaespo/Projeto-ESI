@@ -15,7 +15,7 @@ Nome dos Integrantes : <br>
   Felipe Nunes <br>
   Lais Freire <br>
   Rafael Amado nº:8922409 <br>
-  Vinicius Paes Pó <br>
+  Vinicius Paes Pó nº:8921562 <br>
     
   O problema a ser solucionado é a grande perda e desinteresse hoje pelos cartões de visita. <br>
   Com a internet sendo de facil acesso para a maioria das pessoas , pensamos em evitar a necessidade de confecção de cartões de visita comercias fisicos, gerando uma pasta online com cartões de visita. Assim facilitando a visualização, evitando perdas , desatualizações de informações e limite fisico de cartões que uma pessoa tem, por exemplo em uma carteira.
