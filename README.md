@@ -12,8 +12,8 @@ Heroku APP : https://projeto-esi.herokuapp.com
 
 Nome dos Integrantes : <br>
   Dirceu Neto nº:7972108 <br>
-  Felipe Nunes <br>
-  Lais Freire <br>
+  Felipe Nunes nº:7971514 <br>
+  Lais Freire nº:7556455 <br>
   Rafael Amado nº:8922409 <br>
   Vinicius Paes Pó nº:8921562 <br>
     
