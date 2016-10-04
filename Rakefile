@@ -4,3 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+desc "Automates features tests"
+task :features do
+  # Your code goes here
+end

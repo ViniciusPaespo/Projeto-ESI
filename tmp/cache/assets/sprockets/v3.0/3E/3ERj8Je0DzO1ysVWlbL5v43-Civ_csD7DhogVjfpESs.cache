@@ -1,0 +1,38 @@
+{:uriI"file://app/assets/javascripts/visualnav.jquery.json?type=application/json&id=10327c0b2ccab4ede7876db38ba511638a2fa251f0516ab823790e6ebfad0e16:ET:load_pathI"app/assets/javascripts;T:filenameI"1app/assets/javascripts/visualnav.jquery.json;T:	nameI"visualnav.jquery;T:logical_pathI"visualnav.jquery.json;T:content_typeI"application/json;T:sourceI"{
+	"name": "visualnav",
+	"title": "visualNav",
+	"version": "2.5.2",
+	"description": "Smooth scrolling visual navigation menu",
+	"author": {
+		"name": "Rob Garrison",
+		"url": "https://github.com/Mottie"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+	"homepage": "http://wowmotty.blogspot.com/2010/07/visual-navigation.html",
+	"bugs": "https://github.com/Mottie/visualNav/issues",
+	"demo": "http://mottie.github.com/visualNav/index.html",
+	"docs": "https://github.com/Mottie/visualNav/wiki/Setup",
+	"dependencies": {
+		"jquery": ">=1.3"
+	},
+	"keywords": [
+		"scroll",
+		"scrolling",
+		"animation",
+		"menu",
+		"navigation"
+	],
+	"files": [
+		"js/jquery.visualNav.js",
+		"js/jquery.visualNav.min.js",
+		"js/jquery.easing.1.2.js"
+	]
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"?file-digest://app/assets/javascripts/visualnav.jquery.json;TTF:charsetI"
+utf-8;F:digest"%Q6şËşRD
+Ê;á¯=Ê­ôf³ããf\ûf–#6:lengthi:dependencies_digest"%ùÎïØ°³ŞQ7d=•²h®ìÚÊ<(cÿÈ•—ïøü_ƒ:idI"E10327c0b2ccab4ede7876db38ba511638a2fa251f0516ab823790e6ebfad0e16;F:
+mtimel+¨óW

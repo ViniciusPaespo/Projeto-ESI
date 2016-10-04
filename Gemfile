@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'mime-types', '2.6.2'
 
+#gem 'byebug'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -38,7 +40,7 @@ gem 'mime-types', '2.6.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'pry-byebug'
 end
 
 group :development do
@@ -49,3 +51,4 @@ group :development do
   gem 'spring'
 end
 
+gem "rspec-rails", :group => [:development, :test]
