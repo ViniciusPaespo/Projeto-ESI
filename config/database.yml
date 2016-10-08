@@ -31,7 +31,6 @@ test:
   host: localhost 
   socket: /run/mysqld/mysqld.sock 
 
-
 production:
   adapter: mysql
   encoding: utf8
@@ -40,6 +39,6 @@ production:
   pool: 5
   username: beccaa20c2b94d
   password: 838ff51b
-  host: localhost 
+  host: us-cdbr-iron-east-04.cleardb.net 
   socket: /run/mysqld/mysqld.sock 
   
