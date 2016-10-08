@@ -33,13 +33,13 @@ test:
 
 
 production:
-  adapter: mysql2
+  adapter: mysql
   encoding: utf8
   reconnect: false
-  database: mysql2_production
+  database: heroku_cc6804b0b2d9571
   pool: 5
-  username: viniciuspo
-  password:
+  username: beccaa20c2b94d
+  password: 838ff51b
   host: localhost 
   socket: /run/mysqld/mysqld.sock 
   

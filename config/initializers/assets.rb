@@ -26,3 +26,4 @@ Rails.application.config.assets.precompile += %w( jquery.fadethis.js )
 Rails.application.config.assets.precompile += %w( imagesloaded.js )
 Rails.application.config.assets.precompile += %w( skrollr.js )
 Rails.application.config.assets.precompile += %w( _main.js )
+

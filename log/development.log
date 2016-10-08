@@ -14673,3 +14673,1496 @@ ActionController::RoutingError (No route matches [GET] "/fonts/MyriadProfont-wei
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (176.9ms)
+
+
+Started GET "/" for 143.107.58.100 at 2016-10-04 23:05:58 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (441.5ms)
+Completed 200 OK in 613ms (Views: 595.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico_loading.gif" for 143.107.58.100 at 2016-10-04 23:06:00 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 143.107.58.100 at 2016-10-04 23:06:00 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 143.107.58.100 at 2016-10-04 23:06:00 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fonts/MyriadProfont-weight:300ar.otf" for 143.107.58.100 at 2016-10-04 23:06:01 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/MyriadProfont-weight:300ar.otf"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (161.1ms)
+
+
+Started GET "/assets/slide03.png" for 143.107.58.100 at 2016-10-04 23:06:01 +0000
+Cannot render console from 143.107.58.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:02:20 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (610.2ms)
+Completed 200 OK in 824ms (Views: 805.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:02:21 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:02:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:02:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:02:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-3b958f3ffc1acbab9d4640d3c2c0e9b41a763c641a9787900050c88a4bff4d84.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:06:42 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/img/jclaud-logo.png" for 189.33.77.184 at 2016-10-08 04:06:43 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/jclaud-logo.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (165.8ms)
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:06:43 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:06:43 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:06:43 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:06:43 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:10:33 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 448ms (Views: 447.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-508d71a6eb5ab284fc938d5b3c39241251994bd49d75db3d5c244a11b2532663.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:34 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/img/jclaud-logo.png" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/jclaud-logo.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (120.4ms)
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:10:35 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 316ms (Views: 315.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:58 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/img/jclaud-logo.png" for 189.33.77.184 at 2016-10-08 04:12:59 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/jclaud-logo.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.5ms)
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:13:00 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:13:00 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:13:00 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:13:00 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.css.map" for 189.33.77.184 at 2016-10-08 04:13:17 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 189.33.77.184 at 2016-10-08 04:13:17 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:15:21 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 233ms (Views: 232.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:23 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.css.map" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jclaud-logo-ea42b8602a35c87b61d267331349db2741f28af09b91cf4a9da4f3ae033aeea5.png" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:15:24 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (106.6ms)
+Completed 200 OK in 171ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:16:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jclaud-logo-ea42b8602a35c87b61d267331349db2741f28af09b91cf4a9da4f3ae033aeea5.png" for 189.33.77.184 at 2016-10-08 04:16:13 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:16:13 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:16:13 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:16:13 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:16:13 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 189.33.77.184 at 2016-10-08 04:16:26 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.css.map" for 189.33.77.184 at 2016-10-08 04:16:26 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 140ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:06 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jclaud-logo-ea42b8602a35c87b61d267331349db2741f28af09b91cf4a9da4f3ae033aeea5.png" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:17:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:10 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:24:11 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jclaud-logo-ea42b8602a35c87b61d267331349db2741f28af09b91cf4a9da4f3ae033aeea5.png" for 189.33.77.184 at 2016-10-08 04:24:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:24:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:24:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:24:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:24:12 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 189.33.77.184 at 2016-10-08 04:26:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.css.map" for 189.33.77.184 at 2016-10-08 04:26:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:32:20 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (746.2ms)
+Completed 200 OK in 928ms (Views: 905.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:32:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:32:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:32:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:32:22 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.css.map" for 189.33.77.184 at 2016-10-08 04:32:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 189.33.77.184 at 2016-10-08 04:32:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-5e297bb8f250958b116f871990cf104686535d38ea92d8bb29ae3b2eef60524f.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/normalize.self-d133d3db69fb74cdd854d93655c8df2444f9af9b28f036bb718800a1d0b2e556.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.self-8a8d1c06c619a536f20d32452a3f129da8211005492ccc2fda3cd637c7d8f46a.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:39 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slicknav.min.self-914e54f16c2e0ca04de7207d8469dfc7a44902a7f9aff2ce744a337b1be26914.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-73bffb331de37e60d8eae9cf55c4caa9c8a31164bfb62496352e79fc5d29e744.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-72a48f6762dbdd973eb4f5bd5132249c6c39cc955cea4a2a9ea84bb852273941.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/_main.self-4b1b2d6bf092ac799d764ff3b87285115ffa5321735dbcc8e480af30643d6cbb.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/imagesloaded.self-6b5ff6c3bc98f1f8105b2ee4226c56ed8340f6f3e1c3831729298611a11c259c.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-1.9.1.min.self-4b58dfeb119b2dd15f54e0a074cf8eb63204c8b03d45056e0b514e042f36aa44.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.1.2.self-65c415c4a3a2ce2b372567a7bd7bf10acc55ed9239e72b4ef84f14343d1e81cb.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fadethis.self-69fdd234d16d146c7162df464845079fd28658a99d71fe21e1d67b74debbfe70.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.fittext.self-abe5071b8f0af1501250f665a40d72159f2cf9f5ca252b02d845d97a617c1e77.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.mousewheel.self-c1434da8128986cbe682c47d8d8086abd3ee6a58c175ce686eb09778677697e8.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.slicknav.min.self-458ff4fa05fc99fcd749b2be4cf3d4bc6a8291a34e605ea3037e7361b3586e0a.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.smint.self-53a8af620e7ab578fa9d0642e1d12bde3744704eddce144876ef67fc62dafa80.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.self-95b455d286ec4ef4ea95b86c7014c79e3c1f847a7582c905f8948aef45414a8e.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.visualNav.min.self-d65e4b7280e2a22d705b94eac394476ac186b63add98080fa0075279b00446e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:40 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/modernizr-2.7.1.min.self-c47d7d828941eba47e85056367e5914027e6f3cfe5eaa08c5623f1863ac30682.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/skrollr.self-7d1c6ae86d9e42c0001df70d2558332d964147088c4df45c18f8354b713784e3.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/script.self-b8628d0a0b2762edde493c8ab89cd5526acc063c74941fe69a9f283fa5379a4f.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jclaud-logo-ea42b8602a35c87b61d267331349db2741f28af09b91cf4a9da4f3ae033aeea5.png" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-08 04:33:41 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
