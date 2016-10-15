@@ -16301,3 +16301,53 @@ Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-15 02:41:18 +0000
 Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-15 02:52:04 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-15 02:52:04 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01.png" for 189.33.77.184 at 2016-10-15 02:52:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02.png" for 189.33.77.184 at 2016-10-15 02:52:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03.png" for 189.33.77.184 at 2016-10-15 02:52:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 189.33.77.184 at 2016-10-15 03:02:05 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (879.0ms)
+Completed 200 OK in 1082ms (Views: 1065.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f440fbb9229f936e9251ad634d1273c86444fed1835c0d304000bac590841106.css?body=1" for 189.33.77.184 at 2016-10-15 03:02:07 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide01-0dd985d7174563f32bffb754852a2d32a09d48a897c77ab67ba495643e33567f.png" for 189.33.77.184 at 2016-10-15 03:02:08 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ico_loading.gif" for 189.33.77.184 at 2016-10-15 03:02:08 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide02-a326e867d1e05b434d2fdd7b9503c9319223e72e15c41cd628b7063b00cb16d7.png" for 189.33.77.184 at 2016-10-15 03:02:08 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide03-4f91bae6b5b28a4182ce7ee70c7e669cce81212cd57f847857233a81467075b3.png" for 189.33.77.184 at 2016-10-15 03:02:08 +0000
+Cannot render console from 189.33.77.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
