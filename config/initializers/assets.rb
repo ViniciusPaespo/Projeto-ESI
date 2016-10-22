@@ -13,7 +13,9 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( normalize.css )
 Rails.application.config.assets.precompile += %w( bootstrap.css )
 Rails.application.config.assets.precompile += %w( slicknav.css )
+Rails.application.config.assets.precompile += %w( user.css )
 
+Rails.application.config.assets.precompile += %w( jquery.maskedinput.js )
 Rails.application.config.assets.precompile += %w( jquery-1.9.1.min.js )
 Rails.application.config.assets.precompile += %w( modernizr-2.7.1.min.js )
 Rails.application.config.assets.precompile += %w( jquery.js )

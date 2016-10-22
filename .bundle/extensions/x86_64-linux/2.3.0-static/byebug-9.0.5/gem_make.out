@@ -1,0 +1,19 @@
+current directory: /home/nitrous/code/Projeto-ESI/.bundle/gems/byebug-9.0.5/ext/byebug
+/usr/local/opt/rbenv/versions/2.3.1/bin/ruby -r ./siteconf20161022-799-vqc81q.rb extconf.rb
+creating Makefile
+
+current directory: /home/nitrous/code/Projeto-ESI/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/nitrous/code/Projeto-ESI/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling breakpoint.c
+compiling byebug.c
+compiling threads.c
+compiling locker.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/nitrous/code/Projeto-ESI/.bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20161022-799-u50x7b/byebug
