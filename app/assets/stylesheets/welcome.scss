@@ -359,11 +359,65 @@ position:absolute;
   z-index: -20;
 }
 
-article.vcpode{
-	color:#F44A4A; 
-	font-size:2.5rem;
-	margin:2%;  	
+
+.input-login{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color:#28201a;
+    border-bottom: 2px solid #28201a;
+	width:70%;
+	display:block;
+	max-width:400px;
+	margin-top:3%;
+	padding-top:2%;
+	padding-bottom:2%;
 }
+
+.input-login:hover, .input-login:focus{
+    border: 0;
+    outline: 0;
+    background-color:rgba(40, 32, 26,0.1);
+    border-bottom: 2px solid #28201a;
+    color:#28201a;
+	width:70%;
+	max-width:400px;
+	margin-top:3%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+.botao-login{
+	background:transparent;
+	width:20%;
+	max-width:150px;
+	text-align:center;
+	color:#28201a;
+	
+	margin-top:3%;
+	padding-top:2%;
+	padding-bottom:2%;
+	
+	border: 1px solid #28201a;
+	cursor:pointer;
+}
+
+.botao-login:hover, .botao-login:focus{
+	background:transparent;
+	width:20%;
+	max-width:150px;
+	text-align:center;
+	background-color:rgba(40, 32, 26,0.1);
+	color:#28201a;
+	
+	margin-top:3%;
+	padding-top:2%;
+	padding-bottom:2%;
+	
+	border: 1px solid #28201a;
+	cursor:pointer;
+}
+
 
 body {
     font-size: 1em;
