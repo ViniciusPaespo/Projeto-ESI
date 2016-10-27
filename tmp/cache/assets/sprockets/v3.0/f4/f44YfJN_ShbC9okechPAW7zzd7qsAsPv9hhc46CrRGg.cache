@@ -1,18 +1,0 @@
-{:uriI"‚file://app/assets/javascripts/bower.json?type=application/json&id=37b6f2acad06baa9801c7b4f750f8e577424a40eb4d4ddf7fab399915046e872:ET:load_pathI"app/assets/javascripts;T:filenameI"&app/assets/javascripts/bower.json;T:	nameI"
-bower;T:logical_pathI"bower.json;T:content_typeI"application/json;T:sourceI"¿{
-  "name": "FitText.js",
-  "version": "1.2.0",
-  "main": "./jquery.fittext.js",
-  "dependencies": {
-    "jquery": ">= 1.6"
-  },
-  "ignore": [
-    "example.html",
-    "CONTRIBUTING.md"
-  ]
-}
-;T:metadata{	:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"4file-digest://app/assets/javascripts/bower.json;TTF:charsetI"
-utf-8;F:digest"%7°yqrC}&tdv4›}‚Ùsª&J2oŠvØÚa„ðê:lengthi¿:dependencies_digest"%–&7ŠÉ¥’J(×-åÝ&‰L“|›Õ=´qÚpå:idI"E37b6f2acad06baa9801c7b4f750f8e577424a40eb4d4ddf7fab399915046e872;F:
-mtimel+óW
