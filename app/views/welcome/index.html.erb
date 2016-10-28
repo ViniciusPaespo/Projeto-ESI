@@ -9,32 +9,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-		
+
 		<title>Jclaud</title>
-		
-        <%= stylesheet_link_tag "normalize" %> 
+
+        <%= stylesheet_link_tag "normalize" %>
         <%= stylesheet_link_tag "bootstrap" %>
         <%= stylesheet_link_tag "slicknav" %>
-      
-		
+
+
 		<%= javascript_include_tag('modernizr-2.7.1.min.js') %>
 		<%= javascript_include_tag('jquery.js') %>
 		<%= javascript_include_tag('jquery-1.9.1.min.js') %>
 		<%= javascript_include_tag('jquery.slicknav.min.js') %>
 		<%= javascript_include_tag('jquery.fittext.js') %>
 		<%= javascript_include_tag('jquery.fadethis.js') %>
-		
-		
-		
-	
+
+
+
+
 		<script type="text/javascript">
 
 
 						$(document).ready( function() {
-									
+
 										$(window).fadeThis()
 										;
-										
+
 										$('.line1').fadeThis({speed:300, offset:0});
 										$('.line2').fadeThis({speed:600, offset:0});
 										$('.line3').fadeThis({speed:1200, offset:0});
@@ -52,15 +52,15 @@
 
 									var target = this.hash;
 									var $target = $(target);
-											
+
 										$('body').animate({
 										'scrollTop': $target.offset().top - 50
 										}, 1100, 'swing', function () {
 										window.location.hash = target;
 										});
 									});
-									
-								
+
+
 
 
 
@@ -69,7 +69,7 @@
 
 
 									});
-									
+
 
 		</script>
 		<style type="text/css">
@@ -80,12 +80,12 @@
 											}
 
 		</style>
-	</head> 
+	</head>
 	<body class="loading">
-										
+
 		<div id="header">
-			
-			
+
+
 			<div id="wrapper-menu" style=" width:100%; height:100%; float:left; overflow:hidden; position:relative;">
 				<div id ="menu_background"></div>
 				<label for="show-menu" style="max-width:none;display:none;"class="show-menu">Menu</label>
@@ -96,32 +96,32 @@
 					<li class="li-menu"><a href="#holder3">Sobre</a></li>
 					<li class="li-menu"><a href="#holder4">Contato</a></li>
 				</ul>
-			
+
 			 </div>
-				
+
 		</div>
-		
+
 		<div id="wrapper" style="width:100%;">
 
 			<div id="slide-1" class="slide">
 				<div class="bcg">
 					<div class="hsContainer" style="height:60%; padding-left: 50%;background:none; box-shadow:none; -moz-box-shadow:none">
-					<!--	<div class="mini_wrapper">
+						<div class="mini_wrapper">
 								<%= image_tag("jclaud-icon-home.png",:class =>"imagem-menu" ,:style => "height:20%; margin-bottom:5%;") %>
 								<h2 style="color:#28201a;">Log in</h2>
 								<input id="username" class="input-login" name="username" placeholder="Usu&#225;rio"></input>
-				
+
 				            	<input id="password" class="input-login" name="password" placeholder="Senha" type="password" ></input>
-				
-				
-				            	<input class="botao-login" type="submit" value="Ok"/>
-							</div> -->								
+
+
+				           	<input class="botao-login" type="submit" value="Ok"/>
+							</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="frame" id="holder1" style="height:700px; background-color:#FFFFFF !important">								
-		
+			<div class="frame" id="holder1" style="height:700px; background-color:#FFFFFF !important">
+
 				<div class="mini_wrapper" style="height:100%;">
 					<div style="width:100%; text-align:center; margin-top:2em; " class="title-frame2 slide-top">
 						<h1 style="font-size: 4rem;">Lorem ipsum dolor</h1>
@@ -133,11 +133,11 @@
 					</div>
 
 				</div>
-				
+
 			</div>
 
 			<div class="frame" id="holder2" style="background-color:#FFFFFF; ">
-															
+
 				<div class="mini_wrapper slide-bottom" style="height:100%;">
 					<div style="width:100%; text-align:center; margin-top:2em; " class="title-frame2 slide-top">
 						<h1 style="font-size: 4rem;">Lorem ipsum dolor</h1>
@@ -149,15 +149,15 @@
 					</div>
 
 				</div>
-				
+
 			</div>
 
 			<div id="slide-2" class="slide">
 				<div class="bcg">
 					<div class="hsContainer">
 						<div class="hsContentDesc slide-left" >
-							<h1 style="font-weight:bold">Lorem ipsum dolor sit amet, accumsan pellentesque ac<br></h1>	
-							<h2 style="">Sem non integer dui malesuada sapien ut, praesent donec, sodales ac in velit, dolor ut, arcu morbi metus leo leo. Donec non sit quam, mauris fermentum mauris amet sapien semper, elementum elit</h2>	
+							<h1 style="font-weight:bold">Lorem ipsum dolor sit amet, accumsan pellentesque ac<br></h1>
+							<h2 style="">Sem non integer dui malesuada sapien ut, praesent donec, sodales ac in velit, dolor ut, arcu morbi metus leo leo. Donec non sit quam, mauris fermentum mauris amet sapien semper, elementum elit</h2>
 						</div>
 					</div>
 				</div>
@@ -168,20 +168,20 @@
 					<div style="width:100%; text-align:center; margin-top:2em" class="title-frame2 slide-top">
 						<h1  style="font-size: 4rem;">Lorem ipsum dolor sit amet</h1>
 					</div>
-					<div class="text-frame" style="float:left; " >												
+					<div class="text-frame" style="float:left; " >
 						<p>Leo fugiat accumsan lacinia lacinia. Sollicitudin mollis integer id, sollicitudin at ultrices fringilla egestas bibendum nulla, a nullam sed dis orci a orci, eu vestibulum euismod a orci mi rutrum. Lacinia turpis est, nunc vestibulum vitae lectus vestibulum urna nibh, malesuada eu nec, aptent curabitur vel amet tincidunt, ac tempor gravida natoque ac justo mollit. Mauris massa neque nullam fusce fringilla, orci nec nascetur posuere nec et urna. </p>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="frame" id="holder3" style="background-color:#FFFFFF; height:700px !important">
 				<div class="mini_wrapper slide-bottom" style="text-align:center">
 					<div style="width:100%; text-align:center; margin-top:2em" class="title-frame2 slide-top">
 						<h1  style="font-size: 4rem;">Lorem ipsum dolor sit amet</h1>
 					</div>
-					<div class="text-frame" style="float:left; " >												
+					<div class="text-frame" style="float:left; " >
 						<p>Leo fugiat accumsan lacinia lacinia. Sollicitudin mollis integer id, sollicitudin at ultrices fringilla egestas bibendum nulla, a nullam sed dis orci a orci, eu vestibulum euismod a orci mi rutrum. Lacinia turpis est, nunc vestibulum vitae lectus vestibulum urna nibh, malesuada eu nec, aptent curabitur vel amet tincidunt, ac tempor gravida natoque ac justo mollit. Mauris massa neque nullam fusce fringilla, orci nec nascetur posuere nec et urna. </p>
-					</div>  
+					</div>
 				</div>
 			</div>
 
@@ -189,32 +189,31 @@
 				<div class="bcg">
 					<div class="hsContainer">
 						<div class="hsContentDesc slide-left">
-							<h1 style="font-weight:bold">Lorem ipsum dolor sit amet, accumsan pellentesque ac<br></h1>	
-							<h2 style="">Sem non integer dui malesuada sapien ut, praesent donec, sodales ac in velit, dolor ut, arcu morbi metus leo leo. Donec non sit quam, mauris fermentum mauris amet sapien semper, elementum elit</h2>	
+							<h1 style="font-weight:bold">Lorem ipsum dolor sit amet, accumsan pellentesque ac<br></h1>
+							<h2 style="">Sem non integer dui malesuada sapien ut, praesent donec, sodales ac in velit, dolor ut, arcu morbi metus leo leo. Donec non sit quam, mauris fermentum mauris amet sapien semper, elementum elit</h2>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="frame" id="holder4" style="background-color:#bbc3ce; min-height:600px;; ">
 				<div class="mini_wrapper">
 					<div style="width:100%; text-align:center; margin-top:2em" class="title-frame2 slide-top">
 						<h1  style="font-size: 4rem;">Fale Conosco</h1>
 					</div>
-					<div class="text-frame" style="float:left; " >												
+					<div class="text-frame" style="float:left; " >
 						<p>Leo fugiat accumsan lacinia lacinia. Sollicitudin mollis integer id, sollicitudin at ultrices fringilla egestas bibendum nulla, a nullam sed dis orci a orci, eu vestibulum euismod a orci mi rutrum. Lacinia turpis est, nunc vestibulum vitae lectus vestibulum urna nibh, malesuada eu nec, aptent curabitur vel amet tincidunt, ac tempor gravida natoque ac justo mollit. Mauris massa neque nullam fusce fringilla, orci nec nascetur posuere nec et urna. </p>
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
-		
+
 		<%= javascript_include_tag('imagesloaded.js') %>
 		<%= javascript_include_tag('skrollr.js') %>
 		<%= javascript_include_tag('_main.js') %>
-		
+
 		<menu></menu>
 		<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 	</body>
 </html>
-																			
