@@ -1,3 +1,4 @@
 /tmp/*
 /log/*
+/.c9/*
 /config/database.yml
