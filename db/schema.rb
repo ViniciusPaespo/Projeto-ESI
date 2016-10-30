@@ -13,21 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20161022043119) do
 
-  create_table "restaurantes", force: :cascade do |t|
-    t.string   "name",       limit: 50
-    t.string   "lastname",   limit: 50
-    t.string   "email",      limit: 50
-    t.string   "password",   limit: 10
-    t.string   "cellphone",  limit: 11
-    t.string   "phone",      limit: 10
-    t.string   "cpf",        limit: 11
-    t.string   "cep",        limit: 8
-    t.string   "number",     limit: 10
-    t.string   "complement", limit: 50
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string   "name",       limit: 50
     t.string   "lastname",   limit: 50
