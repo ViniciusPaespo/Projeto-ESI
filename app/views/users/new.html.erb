@@ -26,13 +26,20 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-    $('#menu').slicknav();
-    $("#user_phone").mask("(99)9999-9999");
-    $("#user_cellphone").mask("(99)99999-9999");
-    $("#user_cpf").mask("999.999.999-99");
-    $("#user_cep").mask("99.999-999");
-    $('#menu').slicknav();
-  });
+        $('#menu').slicknav();
+        $("#user_phone").mask("(99)9999-9999");
+        $("#user_cellphone").mask("(99)99999-9999");
+        $("#user_cpf").mask("999.999.999-99");
+        $("#user_cep").mask("99.999-999");
+        
+        $("#btn_submit").click(function(){
+            $("#user_phone").val($("#user_phone").mask());
+            $("#user_cellphone").val($("#user_cellphone").mask());
+            $("#user_cpf").val($("#user_cpf").mask());
+            $("#user_cep").val($("#user_cep").mask());
+        });
+        
+     });
 </script>
 
 </head>
@@ -89,7 +96,7 @@
 
                                 <%= text_field :user, :cellphone , :maxlength=>"11" , class:"input-cadastro col-xs-1 col-sm-2 col-md-2 col-lg-2" , placeholder:"Celular"%> 
 
-                                <%= text_field :user, :cpf, :maxlength=>"11" , :onblur=>"validaCPF(this.value);" , class:"input-cadastro col-xs-1 col-sm-2 col-md-2 col-lg-2" , placeholder:"CPF"%>
+                                <%= text_field :user, :cpf, :maxlength=>"11" , :onblur=>"validaCPF();" , class:"input-cadastro col-xs-1 col-sm-2 col-md-2 col-lg-2" , placeholder:"CPF"%>
 
                                 <%= text_field :user, :cep , :maxlength=>"8", :onblur => "pesquisacep(this.value);" , class:"input-cadastro col-xs-1 col-sm-2 col-md-2 col-lg-2" , placeholder:"CEP"%>
 
@@ -104,7 +111,7 @@
                           
                             </div>
 	 
-                            <%= submit_tag 'Cadastrar' ,  class: "botao-login" %>
+                            <%= submit_tag 'Cadastrar' ,  class: "botao-login" , id:"btn_submit" %>
 
                             <% end %>
                         </div>

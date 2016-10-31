@@ -85,9 +85,10 @@
 		return true;
 	}
 
-	function validaCPF(strCPF){
+	function validaCPF(){
+	    var strCPF =  $("#user_cpf").mask();
 		if (TestaCPF(strCPF) ){
-			document.getElementById('user_cpf').style.backgroundColor="#ffffff";
+			document.getElementById('user_cpf').style.backgroundColor="transparent";
 		} else{
 			document.getElementById('user_cpf').style.backgroundColor="rgb(255, 189, 185)";
 		}
