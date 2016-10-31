@@ -88,9 +88,9 @@
 	function validaCPF(){
 	    var strCPF =  $("#user_cpf").mask();
 		if (TestaCPF(strCPF) ){
-			document.getElementById('user_cpf').style.backgroundColor="transparent";
+			$("#user_cpf").removeClass("red");
 		} else{
-			document.getElementById('user_cpf').style.backgroundColor="rgb(255, 189, 185)";
+				$("#user_cpf").addClass("red");
 		}
 	}
 
