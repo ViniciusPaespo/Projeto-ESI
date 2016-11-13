@@ -1,0 +1,78 @@
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <%= stylesheet_link_tag "slicknav.min.css" %>
+
+	<%= javascript_include_tag('jquery-1.9.1.min.js') %>
+	<%= javascript_include_tag('jquery.slicknav.min.js') %>
+  
+
+	<title>Jclaud</title>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+
+</head>
+<body class="loading">
+
+		<div id="header">
+
+
+			<div id="wrapper-menu" style=" width:100%; height:100%; float:left; overflow:hidden; position:relative;">
+				<div id ="menu_background"></div>
+				<label for="show-menu" style="max-width:none;display:none;"class="show-menu">Menu</label>
+				<ul id="menu" style="height:100%; margin:0; " >
+				<li class="imagem-menu" style="height:100%"><%= image_tag("jclaud-logo.png",:class =>"imagem-menu" ,:style => "height:100%;float:left;padding-right:15px;") %></li>
+					<li class="li-menu"><a href="<%= root_path() %>">Home</a></li>
+				</ul>
+
+			 </div>
+
+		</div>
+
+		<div id="wrapper" >
+			<div id="slide-5" class="slide">
+				<div class="bcg">
+					<div class="hsContainer" style="top:5px; background:none; overflow:auto; bottom:5px;">
+						
+            <div class="list_holder" >
+
+              <h1>Cartões</h1>
+              
+              <p id="notice"><%= notice %></p>
+              
+              <div class="row">
+                <%= form_tag(cards_path, :method => "get", id: "search-form") do %>
+                  <%= text_field_tag :search, params[:search], placeholder:"Pesquisa" , class:"input-cadastro col-xs-1 col-sm-2 col-md-2 col-lg-2" %>
+                  <%= submit_tag "Buscar" , class:"botao-login col-xs-1 col-sm-2 col-md-2 col-lg-2" ,style:"margin-left:2%;" %>
+                <% end %>
+              </div>
+
+              <div class="card_list">
+                <div class="row">    
+                  <% @cards.each do |card| %>
+                    <span class="card col-xs-1 col-sm-2 col-md-2 col-lg-2" style="background: url('<%= Rails.public_path+"/storage/images/"+card.img_src %>'); background-repeat:no-repeat;  background-size: 100% 100%;"  >
+			                <%= link_to '', card , {:class=>"area_click"} %>
+			                <span class="card_tittle"><%= card.title %></span>
+		                </span>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+	  <%= javascript_include_tag('imagesloaded.js') %>
+		<%= javascript_include_tag('_main.js') %>
+
+		<menu></menu>
+		
+</body>

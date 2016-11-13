@@ -26,8 +26,8 @@ test:
   reconnect: false
   database: mysql2_test
   pool: 5
-  username: root
-  password: teste3210
+  username: viniciuspo
+  password: 
   host: localhost
   socket: /run/mysqld/mysqld.sock
 

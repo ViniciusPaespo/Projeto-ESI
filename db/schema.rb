@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161022043119) do
+ActiveRecord::Schema.define(version: 20161112045114) do
+
+  create_table "cards", force: :cascade do |t|
+    t.string   "img_src",     limit: 255
+    t.string   "description", limit: 255
+    t.string   "title",       limit: 255
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.integer  "user_id",     limit: 4
+  end
+
+  add_index "cards", ["user_id"], name: "index_cards_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "name",       limit: 50
@@ -28,4 +39,13 @@ ActiveRecord::Schema.define(version: 20161022043119) do
     t.datetime "updated_at",            null: false
   end
 
+  create_table "users_cards", force: :cascade do |t|
+    t.integer "user_id", limit: 4
+    t.integer "card_id", limit: 4
+  end
+
+  add_index "users_cards", ["card_id"], name: "index_users_cards_on_card_id", using: :btree
+  add_index "users_cards", ["user_id"], name: "index_users_cards_on_user_id", using: :btree
+
+  add_foreign_key "cards", "users"
 end

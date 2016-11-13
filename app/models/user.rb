@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
-  validates_presence_of :name, message: "deve ser preenchido"
+	has_and_belongs_to_many :Card 
+    validates_presence_of :name, message: "deve ser preenchido"
 
 	validates_presence_of :email, message: "deve ser preenchido"
 	validates_uniqueness_of :email, message: "já cadastrado"

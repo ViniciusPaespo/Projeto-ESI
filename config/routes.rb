@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
+  
+  
+ 
+  
+  
+  resources :cards
+  get 'sessions/new'
+
   get 'welcome/index'
   
-
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
