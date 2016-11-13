@@ -3,7 +3,7 @@ class Card < ActiveRecord::Base
     
     def self.search(search)
         if search
-            self.where("title LIKE ? LIMIT 4" , "%#{search}%")
+            self.where("title LIKE ? " , "%#{search}%")
         else
             self.all
         end
