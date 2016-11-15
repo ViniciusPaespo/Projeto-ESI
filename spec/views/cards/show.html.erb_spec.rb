@@ -6,7 +6,7 @@ RSpec.describe "cards/show", type: :view do
       :img_src => "Img Src",
       :description => "Description",
       :title => "Title",
-      :user_id => 2
+      :user_id => 1
     ))
   end
 
@@ -15,6 +15,6 @@ RSpec.describe "cards/show", type: :view do
     expect(rendered).to match(/Img Src/)
     expect(rendered).to match(/Description/)
     expect(rendered).to match(/Title/)
-    expect(rendered).to match(/2/)
+    expect(rendered).to match(/1/)
   end
 end

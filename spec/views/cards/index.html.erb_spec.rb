@@ -7,13 +7,13 @@ RSpec.describe "cards/index", type: :view do
         :img_src => "Img Src",
         :description => "Description",
         :title => "Title",
-        :user_id => 2
+        :user_id => 1
       ),
       Card.create!(
         :img_src => "Img Src",
         :description => "Description",
         :title => "Title",
-        :user_id => 2
+        :user_id => 1
       )
     ])
   end

@@ -15,14 +15,14 @@ RSpec.describe UsersController, type: :controller do
     describe "POST #create" do
       
       it "creates a new user" do
-        post :create, params: {:user => {:name => "Vinicius",:lastname =>"Paes", :email => "vinicius@email.com",:phone => "11944441111", :cellphone => "11911112222",:cpf => "44444444444",:cep => "02222222",:number => "52", :complement => "apto 123"}}
-        expect(response).to render_template("welcome/index")
+        params = ActionController::Parameters.new({:user=>{:name=>"Vinicius", :lastname=>"Paes", :email=>"vinicius.po@email.com", :phone=>"1139988933", :cellphone=>"11941137987", :cpf=>"66666666666", :cep=>"02927000", :number=>"52", :complement=>"123",:password=>"123456"}})
+        post :create, params
+        expect(response).to redirect_to(users_path)
       end
       
     end
       
   end
-    
     
 
 end
