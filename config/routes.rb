@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
   
+  get 'entrar', to: 'sessions#new', as: 'entrar'
+  get 'cadastrar', to: 'user#new', as: 'cadastrar'
+  get 'sair', to: 'sessions#destroy', as: 'sair'
+  
+  resources :sessions
   
  
-  
-  
   resources :cards
-  get 'sessions/new'
 
   get 'welcome/index'
   
@@ -16,6 +18,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

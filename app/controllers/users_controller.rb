@@ -1,5 +1,8 @@
 class UsersController < ApplicationController
-  def index
+	
+	before_filter :authorize, only: [:index]
+	
+	def index
 		render "index"
 	end
 
@@ -8,13 +11,14 @@ class UsersController < ApplicationController
 	end
 
 	def user_params
-		params.require(:user).permit(:name,:lastname, :email, :phone, :cellphone, :cpf, :cep, :number, :complement)
+		params.require(:user).permit(:name,:lastname, :email,:password_digest ,:phone, :cellphone, :cpf, :cep, :number, :complement)
 	end
 
 	def create
 		@user = User.new(user_params)
-		@user.password = params[:user][:password]
+		
 		if @user.save
+			session[:user_id] = @user.id
 			redirect_to(action: "index") 
 		else
 			render action: "new"
