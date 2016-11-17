@@ -11,7 +11,7 @@ development:
   reconnect: false
   database: mysql2_development
   pool: 5
-  username: viniciuspo
+  username: rafaelamado
   password: 
   host: localhost
   socket: /run/mysqld/mysqld.sock
@@ -26,7 +26,7 @@ test:
   reconnect: false
   database: mysql2_test
   pool: 5
-  username: viniciuspo
+  username: rafaelamado
   password: 
   host: localhost
   socket: /run/mysqld/mysqld.sock

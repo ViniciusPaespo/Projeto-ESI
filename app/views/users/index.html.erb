@@ -1,1 +1,10 @@
-<h2> Usuário cadastrato com sucesso ! </h2>
+<% if current_user %>
+    <h2>Bem vindo <%= current_user.name %> <%= current_user.lastname %>.  </h2>
+    <h3> Logado como: <%= current_user.email %>  </h3>
+    
+    <br/>
+    <%= link_to "Sair" , sair_path %>
+<% else %>
+    <h4> <%= link_to "Logar" , entrar_path %> </h4>
+
+<% end %>

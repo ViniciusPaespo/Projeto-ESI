@@ -108,13 +108,23 @@
 						<div class="mini_wrapper">
 								<%= image_tag("jclaud-icon-home.png",:class =>"imagem-menu" ,:style => "height:20%; margin-bottom:5%;") %>
 								<h2 style="color:#28201a;">Log in</h2>
-								<input id="username" class="input-login" name="username" placeholder="Usu&#225;rio"></input>
-
-				            	<input id="password" class="input-login" name="password" placeholder="Senha" type="password" ></input>
-
-
-				           	<input class="botao-login" type="submit" value="Ok"/>
-							</div>
+								<% flash.each do |name, msg| %>
+								    <%= content_tag :div, msg, id: "flash_#{name}" %> <br/>
+								<% end %>
+								
+								<%= form_tag welcome_index_path do %>
+									<!-- <input id="username" class="input-login" name="username" placeholder="Usu&#225;rio"></input> -->
+	    							<%= text_field_tag :email, params[:email], class: "input-login", placeholder: "Usuário", name: "username" %> <br />
+									
+	
+					            	<!-- <input id="password" class="input-login" name="password" placeholder="Senha" type="password" ></input> -->
+	    							<%= password_field_tag :password, class: "input-login" %> <br />
+	
+	
+					           		<!--<input class="botao-login" type="submit" value="Ok"/> -->
+					           		<%= submit_tag "Ok", class: "botao-login" %>
+								<% end %>
+						</div>
 					</div>
 				</div>
 			</div>
