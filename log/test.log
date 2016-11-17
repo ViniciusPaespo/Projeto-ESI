@@ -10274,3 +10274,131 @@ Completed 200 OK in 397ms (Views: 382.7ms | ActiveRecord: 0.6ms)
   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-15 23:31:20"], ["updated_at", "2016-11-15 23:31:20"]]
   [1m[35m (6.8ms)[0m  COMMIT
   Rendered cards/show.html.erb (2.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.5ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  SELECT DATABASE() as db
+  [1m[36m (1.1ms)[0m  [1mselect table_name from information_schema.views where table_schema = 'mysql2_test'[0m
+  [1m[35m (7.3ms)[0m  TRUNCATE TABLE `cards`;
+  [1m[36m (5.6ms)[0m  [1mTRUNCATE TABLE `users`;[0m
+  [1m[35m (5.6ms)[0m  TRUNCATE TABLE `users_cards`;
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (5.5ms)[0m  TRUNCATE TABLE `cards`;
+  [1m[36m (5.8ms)[0m  [1mTRUNCATE TABLE `users`;[0m
+  [1m[35m (6.2ms)[0m  TRUNCATE TABLE `users_cards`;
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+Processing by CardsController#new as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered cards/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 22.5ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `cards`
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 6.5ms | ActiveRecord: 1.3ms)
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"Vinicius", "lastname"=>"Paes", "email"=>"vinicius.po@email.com", "phone"=>"1139988933", "cellphone"=>"11941137987", "cpf"=>"66666666666", "cep"=>"02927000", "number"=>"52", "complement"=>"123", "password"=>"[FILTERED]"}}
+Unpermitted parameter: password
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'vinicius.po@email.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`phone` = BINARY '1139988933' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`cellphone` = BINARY '11941137987' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`cpf` = BINARY '66666666666' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `users` (`name`, `lastname`, `email`, `phone`, `cellphone`, `cpf`, `cep`, `number`, `complement`, `password`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Vinicius"], ["lastname", "Paes"], ["email", "vinicius.po@email.com"], ["phone", "1139988933"], ["cellphone", "11941137987"], ["cpf", "66666666666"], ["cep", "02927000"], ["number", "52"], ["complement", "123"], ["password", "123456"], ["created_at", "2016-11-15 23:41:29"], ["updated_at", "2016-11-15 23:41:29"]]
+  [1m[36m (4.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/users
+Completed 302 Found in 32ms (ActiveRecord: 6.8ms)
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Started GET "/cards" for 127.0.0.1 at 2016-11-15 23:41:29 +0000
+Processing by CardsController#index as HTML
+  [1m[35mCard Load (0.8ms)[0m  SELECT `cards`.* FROM `cards`
+  Rendered cards/index.html.erb within layouts/application (316.2ms)
+Completed 200 OK in 333ms (Views: 321.7ms | ActiveRecord: 0.8ms)
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["img_src", "MyString"], ["description", "MyString"], ["title", "MyString"], ["user_id", 1], ["created_at", "2016-11-15 23:41:30"], ["updated_at", "2016-11-15 23:41:30"]]
+  [1m[36m (7.2ms)[0m  [1mCOMMIT[0m
+  Rendered cards/_form.html.erb (27.7ms)
+  Rendered cards/edit.html.erb (40.1ms)
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-15 23:41:30"], ["updated_at", "2016-11-15 23:41:30"]]
+  [1m[35m (7.5ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-15 23:41:30"], ["updated_at", "2016-11-15 23:41:30"]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  Rendered cards/index.html.erb (7.7ms)
+  Rendered cards/_form.html.erb (3.9ms)
+  Rendered cards/new.html.erb (5.6ms)
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-15 23:41:30"], ["updated_at", "2016-11-15 23:41:30"]]
+  [1m[35m (7.5ms)[0m  COMMIT
+  Rendered cards/show.html.erb (2.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (4.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.5ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  SELECT DATABASE() as db
+  [1m[36m (0.8ms)[0m  [1mselect table_name from information_schema.views where table_schema = 'mysql2_test'[0m
+  [1m[35m (12.1ms)[0m  TRUNCATE TABLE `cards`;
+  [1m[36m (9.9ms)[0m  [1mTRUNCATE TABLE `users`;[0m
+  [1m[35m (12.8ms)[0m  TRUNCATE TABLE `users_cards`;
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (6.2ms)[0m  TRUNCATE TABLE `cards`;
+  [1m[36m (7.1ms)[0m  [1mTRUNCATE TABLE `users`;[0m
+  [1m[35m (7.0ms)[0m  TRUNCATE TABLE `users_cards`;
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+Processing by CardsController#new as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered cards/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 26.2ms | ActiveRecord: 3.4ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `cards`
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 11.6ms | ActiveRecord: 1.5ms)
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"Vinicius", "lastname"=>"Paes", "email"=>"vinicius.po@email.com", "phone"=>"1139988933", "cellphone"=>"11941137987", "cpf"=>"66666666666", "cep"=>"02927000", "number"=>"52", "complement"=>"123", "password"=>"[FILTERED]"}}
+Unpermitted parameter: password
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'vinicius.po@email.com' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`phone` = BINARY '1139988933' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`cellphone` = BINARY '11941137987' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`cpf` = BINARY '66666666666' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `users` (`name`, `lastname`, `email`, `phone`, `cellphone`, `cpf`, `cep`, `number`, `complement`, `password`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Vinicius"], ["lastname", "Paes"], ["email", "vinicius.po@email.com"], ["phone", "1139988933"], ["cellphone", "11941137987"], ["cpf", "66666666666"], ["cep", "02927000"], ["number", "52"], ["complement", "123"], ["password", "123456"], ["created_at", "2016-11-16 01:14:49"], ["updated_at", "2016-11-16 01:14:49"]]
+  [1m[36m (7.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/users
+Completed 302 Found in 51ms (ActiveRecord: 9.9ms)
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+Started GET "/cards" for 127.0.0.1 at 2016-11-16 01:14:49 +0000
+Processing by CardsController#index as HTML
+  [1m[35mCard Load (0.7ms)[0m  SELECT `cards`.* FROM `cards`
+  Rendered cards/index.html.erb within layouts/application (662.1ms)
+Completed 200 OK in 684ms (Views: 666.7ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["img_src", "MyString"], ["description", "MyString"], ["title", "MyString"], ["user_id", 1], ["created_at", "2016-11-16 01:14:50"], ["updated_at", "2016-11-16 01:14:50"]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  Rendered cards/_form.html.erb (57.1ms)
+  Rendered cards/edit.html.erb (80.0ms)
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-16 01:14:50"], ["updated_at", "2016-11-16 01:14:50"]]
+  [1m[35m (7.7ms)[0m  COMMIT
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-16 01:14:50"], ["updated_at", "2016-11-16 01:14:50"]]
+  [1m[36m (7.2ms)[0m  [1mCOMMIT[0m
+  Rendered cards/index.html.erb (7.5ms)
+  Rendered cards/_form.html.erb (4.0ms)
+  Rendered cards/new.html.erb (5.9ms)
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `cards` (`img_src`, `description`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["img_src", "Img Src"], ["description", "Description"], ["title", "Title"], ["user_id", 1], ["created_at", "2016-11-16 01:14:50"], ["updated_at", "2016-11-16 01:14:50"]]
+  [1m[35m (6.8ms)[0m  COMMIT
+  Rendered cards/show.html.erb (2.3ms)

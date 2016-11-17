@@ -1,4 +1,46 @@
-<p id="notice"><%= notice %></p>
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+	<title>Jclaud</title>
+
+  <%= stylesheet_link_tag "slicknav.min.css" %>
+  
+	<%= javascript_include_tag('jquery-1.9.1.min.js') %>
+	<%= javascript_include_tag('jquery.slicknav.min.js') %>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+
+</head>
+	<body class="loading">
+
+		<div id="header">
+
+
+			<div id="wrapper-menu" style=" width:100%; height:100%; float:left; overflow:hidden; position:relative;">
+				<div id ="menu_background"></div>
+				<label for="show-menu" style="max-width:none;display:none;"class="show-menu">Menu</label>
+				<ul id="menu" style="height:100%; margin:0; " >
+				<li class="imagem-menu" style="height:100%"><%= image_tag("jclaud-logo.png",:class =>"imagem-menu" ,:style => "height:100%;float:left;padding-right:15px;") %></li>
+					<li class="li-menu"><a href="<%= root_path() %>">Home</a></li>
+				</ul>
+
+			 </div>
+
+		</div>
+
+		<div id="wrapper" >
+			<div id="slide-5" class="slide">
+				<div class="bcg">
+					<div class="hsContainer" style="top:5px; background:none; overflow:auto; bottom:5px;">
+						
+						<p id="notice"><%= notice %></p>
 
 <p>
   <strong>Img src:</strong>
@@ -16,9 +58,27 @@
 </p>
 
 <p>
+  <strong>Fi:</strong>
+  <%= @user.id %>
+</p>
+
+<p>
   <strong>User:</strong>
   <%= @card.user_id %>
 </p>
 
-<%= link_to 'Edit', edit_card_path(@card) %> |
-<%= link_to 'Back', cards_path %>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+
+
+	    <%= javascript_include_tag('imagesloaded.js') %>
+		<%= javascript_include_tag('_main.js') %>
+
+		<menu></menu>
+		
+</body>
