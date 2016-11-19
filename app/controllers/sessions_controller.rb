@@ -3,14 +3,13 @@ class SessionsController < ApplicationController
   end
   
   def create
-    user = User.find_by_email(params[:email])
+    @user = User.find_by email: params[:email]
     
-    if user && user.password_digest == params[:password]
-      session[:user_id] = user.id
-      redirect_to controller: 'users', action: 'index', notice: "Logged in"
+    if @user && @user.password_digest == params[:password]
+      session[:user_id] = @user.id
+      redirect_to controller: 'users', action: 'home'
     else
-      flash.now.alert = "Email ou senha incorreto!"
-      render "new"
+       redirect_to root_url, notice: "Email ou senha incorreto!"
     end 
   end
   

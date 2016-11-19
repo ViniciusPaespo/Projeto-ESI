@@ -112,16 +112,12 @@
 								    <%= content_tag :div, msg, id: "flash_#{name}" %> <br/>
 								<% end %>
 								
-								<%= form_tag welcome_index_path do %>
-									<!-- <input id="username" class="input-login" name="username" placeholder="Usu&#225;rio"></input> -->
-	    							<%= text_field_tag :email, params[:email], class: "input-login", placeholder: "Usuário", name: "username" %> <br />
-									
-	
-					            	<!-- <input id="password" class="input-login" name="password" placeholder="Senha" type="password" ></input> -->
-	    							<%= password_field_tag :password, class: "input-login" %> <br />
-	
-	
-					           		<!--<input class="botao-login" type="submit" value="Ok"/> -->
+								<%= form_tag({controller: "sessions", action: "create"}, method: "post") do %>
+							
+	    							<%= text_field_tag :email, params[:email], class: "input-login", placeholder: "Usuário", name: "email" %> <br />
+										
+									<%= text_field_tag :password, params[:password], class: "input-login", placeholder: "Senha", name: "password" , type:"password" %> <br />
+					        
 					           		<%= submit_tag "Ok", class: "botao-login" %>
 								<% end %>
 						</div>

@@ -66,6 +66,12 @@ class CardsController < ApplicationController
     end
   end
 
+  def add
+    @sql = "insert into users_cards (user_id,card_id) values (#{params[:user_id]},#{params[:card_id]}) ;" 
+    @result = ActiveRecord::Base.connection.execute(@sql)
+    redirect_to(:back , notice: "Cartão adicionado a sua coleção com sucesso")
+  end  
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_card
@@ -76,4 +82,5 @@ class CardsController < ApplicationController
     def card_params
       params.require(:card).permit(:img_src, :description, :title, :user_id)
     end
+    
 end

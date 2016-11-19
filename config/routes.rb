@@ -1,17 +1,23 @@
 Rails.application.routes.draw do
   
-  get 'entrar', to: 'sessions#new', as: 'entrar'
-  get 'cadastrar', to: 'user#new', as: 'cadastrar'
+  get 'entrar', to: 'sessions#new', as: 'Entrar'
+  get 'cadastrar', to: 'users#new', as: 'Cadastrar'
   get 'sair', to: 'sessions#destroy', as: 'sair'
+  get 'users/home', to: 'users#home', as: 'Home'
+  post 'sessions/create', to:'sessions#create'
   
   resources :sessions
   
  
   resources :cards
 
+
   get 'welcome/index'
   
+  
   resources :users
+
+  post '/cards/add', to:'cards#add'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -23,8 +29,8 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-  get "users", to: "users#index" 
-  get "users/new", to: "users#new" , as:"cadastro"
+  get "users", to: "users#index"
+  get "users/new", to: "users#new" , as:"Cadastro"
   post "users/create", to: "users#create" 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

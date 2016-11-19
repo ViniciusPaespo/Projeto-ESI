@@ -39,35 +39,48 @@
 			<div id="slide-5" class="slide">
 				<div class="bcg">
 					<div class="hsContainer" style="top:5px; background:none; overflow:auto; bottom:5px;">
+			
+						<div class="form" >
 						
-						<p id="notice"><%= notice %></p>
+							<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Img src:</strong>
-  <%= @card.img_src %>
-</p>
+								<div class="row">
+									<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2" style="width:40%;" >
+										<span class="card" style="background: url('<%= Rails.public_path+"/storage/images/"+@card.img_src %>'); background-repeat:no-repeat;  background-size: 100% 100%;"  >	</span>
+										<h1 style="margin-top:5%;"> <strong>Title:</strong> <%= @card.title %> </h1>
+										<h1> <strong>Description:</strong> <%= @card.description %> </h1>
+										
+										<%= 
+											if session[:user_id] != nil
+										    	@sql = "select * from users_cards WHERE user_id = #{session[:user_id]} AND card_id = #{@card.id}"
+    											@result = ActiveRecord::Base.connection.execute(@sql)
+										    	if @result.count == 0
+										    		form_tag :action => 'add',:card_id => @card.id , :user_id => session[:user_id] do 
+                                                		submit_tag 'Adiconar' ,  class: "botao-login" , id:"btn_submit" 
+													end
+												else
+													"Este cartão faz parte da sua coleção"
+												end	
+											end
+										%>
+										
+									</div>		
+									<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2" style="width:40%;">
+										
 
-<p>
-  <strong>Description:</strong>
-  <%= @card.description %>
-</p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @card.title %>
-</p>
 
 <p>
   <strong>Fi:</strong>
   <%= @user.id %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @card.user_id %>
-</p>
+									</div>		
+									   
+								</div>	
 
-						
+	
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -76,7 +89,7 @@
 
 
 
-	    <%= javascript_include_tag('imagesloaded.js') %>
+	  <%= javascript_include_tag('imagesloaded.js') %>
 		<%= javascript_include_tag('_main.js') %>
 
 		<menu></menu>

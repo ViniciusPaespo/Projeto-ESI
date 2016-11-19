@@ -6,6 +6,10 @@ class UsersController < ApplicationController
 		render "index"
 	end
 
+	def home
+		render "home"
+	end
+
 	def new
 		@user = User.new
 	end
