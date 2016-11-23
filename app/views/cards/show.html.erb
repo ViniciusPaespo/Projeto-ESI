@@ -27,8 +27,14 @@
 				<div id ="menu_background"></div>
 				<label for="show-menu" style="max-width:none;display:none;"class="show-menu">Menu</label>
 				<ul id="menu" style="height:100%; margin:0; " >
-				<li class="imagem-menu" style="height:100%"><%= image_tag("jclaud-logo.png",:class =>"imagem-menu" ,:style => "height:100%;float:left;padding-right:15px;") %></li>
-					<li class="li-menu"><a href="<%= root_path() %>">Home</a></li>
+					<li class="imagem-menu" style="height:100%"><%= image_tag("jclaud-logo.png",:class =>"imagem-menu" ,:style => "height:100%;float:left;padding-right:15px;") %></li>
+					<li class="li-menu"><a href="<%= root_path() %>">Inicio</a></li>
+					<% if session[:user_id] != nil %>  
+						<li class="li-menu"><a href="<%= "#{users_path}/home" %>">Home</a></li>
+					<% else %>
+						<li class="li-menu"><a href="<%= new_user_path() %>">Cadastre-se</a></li>
+					<% end %>
+					<li class="li-menu"><a href="<%= cards_path() %>">Cartões</a></li>
 				</ul>
 
 			 </div>

@@ -7,6 +7,16 @@ class UsersController < ApplicationController
 	end
 
 	def home
+		if params[:search]
+			@sql = "SELECT c.* FROM users_cards uc INNER JOIN cards c ON c.id = uc.card_id WHERE uc.user_id = #{session[:user_id]} AND 
+					(c.title like '%#{params[:search]}%' OR c.description like '%#{params[:search]}%' ) ;" 
+    		@cards = ActiveRecord::Base.connection.exec_query(@sql)
+    		@cards.to_hash
+    	else
+    		@sql = "SELECT c.* FROM users_cards uc INNER JOIN cards c ON c.id = uc.card_id WHERE uc.user_id = #{session[:user_id]} ;" 
+    		@cards = ActiveRecord::Base.connection.exec_query(@sql)
+    		@cards.to_hash
+    	end
 		render "home"
 	end
 

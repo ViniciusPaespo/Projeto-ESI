@@ -91,7 +91,11 @@
 				<label for="show-menu" style="max-width:none;display:none;"class="show-menu">Menu</label>
 				<ul id="menu" style="height:100%" >
 				<li class="imagem-menu" style="height:100%"><%= image_tag("jclaud-logo.png",:class =>"imagem-menu" ,:style => "height:100%;float:left;padding-right:15px;") %></li>
-					<li class="li-menu"><a href="<%= new_user_path() %>">Cadastre-se</a></li>
+					<% if session[:user_id] != nil %>  
+						<li class="li-menu"><a href="<%= "#{users_path}/home" %>">Home</a></li>
+					<% else %>
+						<li class="li-menu"><a href="<%= new_user_path() %>">Cadastre-se</a></li>
+					<% end %>
 					<li class="li-menu"><a href="<%= cards_path() %>">Cartões</a></li>
 					<li class="li-menu"><a href="#holder4">Contato</a></li>
 				</ul>
@@ -114,7 +118,7 @@
 								
 								<%= form_tag({controller: "sessions", action: "create"}, method: "post") do %>
 							
-	    							<%= text_field_tag :email, params[:email], class: "input-login", placeholder: "Usuário", name: "email" %> <br />
+	    							<%= text_field_tag :email, params[:email], class: "input-login", placeholder: "Email", name: "email" %> <br />
 										
 									<%= text_field_tag :password, params[:password], class: "input-login", placeholder: "Senha", name: "password" , type:"password" %> <br />
 					        
