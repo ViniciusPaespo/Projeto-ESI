@@ -33,7 +33,7 @@ class UsersController < ApplicationController
 		
 		if @user.save
 			session[:user_id] = @user.id
-			redirect_to(action: "index") 
+			redirect_to(action: "home") 
 		else
 			render action: "new"
 		end
